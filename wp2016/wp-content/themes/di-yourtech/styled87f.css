@@ -1,0 +1,373 @@
+/* 
+Theme Name: DI YourTech
+Description: Childtheme 
+Author: Designers Inn 
+Template: di-basis 
+Version: 1.4 
+*/
+
+
+/*
+* Querlinie zwischen Submenu Links
+*/
+#top-menu li li a{border-bottom:1px solid #eee; font-size: 16px !important;}
+#top-menu li li:last-child a{border-bottom:0px solid #eee; font-size: 16px !important;}
+
+
+
+.et_pb_fullwidth_header .et-pb-icon.scroll-down {
+	animation: fullwidth-header-bounce 2.2s ease-out infinite;
+}
+@keyframes fullwidth-header-bounce {
+  0% { transform:translateY(0%); }
+  12.5% { transform:translateY(20%); }
+  25% { transform:translateY(0%); }
+  37.5% { transform:translateY(20%); }
+  50% { transform:translateY(0%); }
+}
+
+.et_pb_widget_area_left {
+    border-right-width: 0;
+}
+
+
+ul.et_pb_social_media_follow {
+position: fixed;
+left: 3px;
+top: 50%;
+padding: 0 !important;
+z-index: 999 !important;
+width:0%;
+margin-top: -81px !important;
+}
+.et_pb_social_media_follow li {
+margin: 3px 0 0 !important; padding: 0 !important;
+}
+.et_pb_social_media_follow li a.icon.rounded_rectangle {
+border-radius: 0px !important;
+-webkit-border-radius:  0px !important;
+-moz-border-radius:  0px !important;
+margin: 0 !important;
+}
+
+
+
+
+header#main-header.et-fixed-header, #main-header{
+	-webkit-box-shadow:none !important;
+	-moz-box-shadow:none !important;
+	box-shadow:none !important;
+}
+
+
+.adresse {font-size: 90% !important; line-height: 1.4em !important; }
+
+
+.sub-menu {min-width:340px;}
+#top-menu li li a {width: 100%; min-width: 300px; }
+
+/* OWN STYLES KATZBECK (eichi) */
+
+.own_bildershow .portrait { border: 1px solid #ddd !important; }
+
+/* === Style WP-PageNavi Pagination === */
+
+/* Center the pagination */
+.wp-pagenavi { text-align:center; padding-top: 40px !important; border-top: none !important; }
+
+/* Add a border */
+.wp-pagenavi span, .wp-pagenavi a, .wp-pagenavi :last-child { 
+    border: 0px solid #bbb !important; 
+    padding: 6px 12px; 
+    margin: 0;  
+}
+.wp-pagenavi span, .wp-pagenavi a { border-right: none !important; }
+
+/* Style the default text */
+.wp-pagenavi span, .wp-pagenavi a { 
+    font-weight: bold !important; 
+    color: #999 !important
+}
+
+/* Style the current / hovered page link */
+.wp-pagenavi span.current,
+.wp-pagenavi a:hover { 
+    color: #fff !important; 
+    background-color: #ff8200 !important; 
+}
+
+/* Style the page count text */
+.wp-pagenavi :first-child { color: #666 !important; }
+
+/* Add text to the "next" link */
+.wp-pagenavi .nextpostslink:before { content: ''; }
+.wp-pagenavi .previouspostslink:after { content: ''; }
+
+
+
+.fotograf { color: #999; font-size: 12px; }
+.fotograf span { vertical-align: middle; }
+
+h3.sales { color: #fff; }
+p.sales { text-transform: uppercase; }
+
+p.empfehlung_1 { text-align: center; font-weight: 300; font-size: 24pt; margin: 0 !important; padding: 0 !important; }
+p.empfehlung_2 { text-align: center; font-weight: 300; font-size: 16pt; margin: 5px 0 !important; padding: 0 !important; }
+p.empfehlung_3 { text-align: center; font-weight: 600; font-size: 48pt; margin: 30px 0 !important; padding: 0 !important; }
+p.empfehlung_4 { text-align: center; font-weight: 300; font-size: 16pt; margin: 0 !important; padding: 0 !important; }
+
+/* Rechtes DropDown wird rechts ausgerichtet und ist damit immer sichtbar */
+.drop_menu ul {
+right: 0px !important;
+}
+.drop_menu .sub-menu ul {
+right: 300px !important;
+}
+
+/* Hover Farbe DropDown Menu */
+#top-menu li li a:hover { color: #fff !important; background-color:#ff8200 !important; opacity: 1 !important; }
+
+
+@media screen and (min-width: 768px) {
+.spalte_links { float: left; width: 49%; }
+.spalte_rechts { float: right; width: 49%; }
+}
+
+@media screen and (max-width: 767px) {
+.spalte_links { width: 100%; }
+.spalte_rechts { width: 100%; margin-top: 20px; }
+}
+
+
+
+
+
+
+body { font-weight: 300 !important;}
+
+
+.hr_orange_homeslider { position: absolute; bottom: 9.5vh; left: 0; border: none; color: #ff8200; background-color: #ff8200; height: 6px; width: 45px; }
+.hr_white_homeslider { position: absolute; bottom: 9.5vh; left: 0; border: none; color: #fff; background-color: #fff; height: 6px; width: 45px; }
+
+
+.hr_fineline { align: left; text-align: left; border: none; color: #e1e1e1; background-color: #e1e1e1; height: 1px; width: 100%; margin: 60px 0px 0px 0px; }
+
+
+.hr_orange { align: left; text-align: left; border: none; color: #ff8200; background-color: #ff8200; height: 6px; width: 45px; margin: 10px 0px 15px 0px; }
+.hr_white { align: left; text-align: left; border: none; color: #fff; background-color: #fff; height: 6px; width: 45px; margin: 10px 0px 15px 0px; }
+.hr_orange_fineline { align: left; border: none; color: #ddd; background-color: #ddd; height: 1px; width: 100%; margin: -6px 0 6px; }
+.small { font-size: 70%; }
+.hr_blank { border: none; background: transparent; height: 30px; }
+.font_weight_300 { font-weight: 300; }
+.font_weight_400 { font-weight: 400; }
+
+.blog { font-weight: 300; }
+
+.footerlink { font-weight: 400; color: #fff !important; }
+.font_weight_300_24pt { font-size: 24pt; color: #fff !important; font-weight: 300; text-shadow: 1px 1px 10px rgba(0, 0, 0, 1); margin-bottom: 30px;}
+
+.produkte_h1 { font-size: 44pt !important; letter-spacing: 1px; color: #fff !important; text-shadow: 1px 1px 10px rgba(0, 0, 0, 1); }
+
+.produkte_h1_telefon { font-size: 32pt !important; letter-spacing: 1px; color: #fff !important; text-shadow: 1px 1px 10px rgba(0, 0, 0, 1); }
+
+.produkte_h2 { color: #3b3b3b; font-size: 20pt; }
+.produkte_h3 { font-size: 16pt; font-weight: 300; }
+
+.et_pb_testimonial_author { font-size: 50% !important; text-align: center; }
+
+ol { margin: 20px 0 0 0; list-style-position:inside; }
+ol li { margin-left: 15px; }
+
+.stgriffe { width: 13%; margin: 0 .075%; border: 1px solid #fff; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
+
+
+
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type="tel"],
+.wpcf7 textarea
+{
+ background-color: #eee;
+ border: none;
+ width: 100% !important;
+ -moz-border-radius: 0 !important;
+ -webkit-border-radius: 0 !important;
+ border-radius: 0 !important;
+ font-size: 14px;
+ color: #999 !important;
+ padding: 16px !important;
+ -moz-box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+ box-sizing: border-box;
+}
+.wpcf7-captchar {
+ background-color: #fff !important;
+ border: 1px solid !important;
+ padding: 12px !important;
+}
+.wpcf7-submit {
+ background-origin: padding-box;
+ background-size: auto;
+ background: transparent !important;
+ color: #ff8200;
+ border: 2px solid;
+ font-size:20px;
+ padding: 6px 20px;
+ line-height:1.7em;
+ border-radius: 4px;
+ -webkit-border-radius: 4px;
+ -moz-border-radius: 4px;
+ -khtml-border-radius: 4px;
+ height: 50px ! important;
+ width: 102px;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+ -moz-transition: all 0.2s;
+ -webkit-transition: all 0.2s;
+ transition: all 0.2s;
+}
+.wpcf7-submit:hover {
+ background: #eee !important;
+ color:#ff8200;
+ border: 2px solid transparent;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+ -moz-transition: all 0.2s;
+ -webkit-transition: all 0.2s;
+ transition: all 0.2s;
+}
+
+
+.et_pb_portfolio_filters { background: #f4f4f4 !important; padding: 20px 0; margin: 0 auto 90px; }
+.et_pb_portfolio_filters ul { margin: 0 auto; max-width: 1300px !important; }
+
+
+
+
+
+
+/* Suche als Masonry */
+
+/*
+* Remove sidebar on all archive pages
+*/
+
+.search #main-content .container::before,
+.archive #main-content .container::before {
+    display: none !important;
+} 
+
+.search #left-area,
+.archive #left-area {
+    width: 100%;
+    float: none;
+    padding-right: 0;
+}
+
+.search #sidebar,
+.archive #sidebar {
+    display: none;
+}
+ 
+/*
+* Create Mansonory styles for archive pages
+*/
+.search #left-area,
+.archive #left-area {
+    -moz-column-count: 3;
+         column-count: 3;
+    -moz-column-gap: 60px;
+         column-gap: 60px;
+}
+ 
+.archive .et_pb_post > a,
+.search .et_pb_post > a {
+    margin: -20px -20px 10px;
+    display: block;
+}
+ 
+.search #left-area .et_pb_post,
+.archive #left-area .et_pb_post {
+    overflow: hidden; /* fix for Firefox */
+    page-break-inside: avoid;
+    break-inside: avoid-column;
+    width: 100%;
+    padding: 19px;
+    border: 1px solid #d8d8d8;
+    background-color: #fff;
+    word-wrap: break-word;
+    display: inline-block;
+}
+ 
+.search #left-area .et_pb_post h2,
+.archive #left-area .et_pb_post h2 {
+    font-size: 18px;
+}
+ 
+.search #left-area .et_pb_post.format-link,
+.search #left-area .et_pb_post.format-quote,
+.search #left-area .et_pb_post.format-audio,
+.archive #left-area .et_pb_post.format-link,
+.archive #left-area .et_pb_post.format-quote,
+.archive #left-area .et_pb_post.format-audio{
+    padding: 0;
+}
+ 
+.archive .et_pb_post .et_pb_image_container,
+.archive .et_pb_post .et_main_video_container,
+.archive .et_pb_post .et_audio_content,
+.archive .et_pb_post .et_pb_slider,
+.search .et_pb_post .et_pb_image_container,
+.search .et_pb_post .et_main_video_container,
+.search .et_pb_post .et_audio_content,
+.search .et_pb_post .et_pb_slider {
+    margin: -20px -20px 10px;
+}
+ 
+.archive .et_pb_post.format-audio .et_audio_content{
+    margin: 0px -38px 0px;
+}
+ 
+.archive .et_pb_post .et_pb_slider .et_pb_slide,
+.search .et_pb_post .et_pb_slider .et_pb_slide {
+    min-height: 180px;
+}
+ 
+.archive .pagination,
+.search .pagination {
+    padding: 20px 0;
+}
+ 
+/*
+* Media Queries
+*/
+@media screen and (max-width: 980px) {
+    .search #left-area,
+    .archive #left-area {
+        -moz-column-count: 2;
+            column-count: 2;
+        -moz-column-gap: 60px;
+            column-gap: 60px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .search #left-area,
+    .archive #left-area {
+        -moz-column-count: 1;
+            column-count: 1;
+    }
+    .search .et_pb_post.format-audio .et_audio_content,
+    .archive .et_pb_post.format-audio .et_audio_content{
+        margin: 0;
+    }
+    .search #left-area .et_pb_post.format-audio .et_audio_container .mejs-controls div.mejs-time-rail,
+    .archive #left-area .et_pb_post.format-audio .et_audio_container .mejs-controls div.mejs-time-rail,
+    .search #left-area .et_pb_post.format-audio .et_audio_container .mejs-controls .mejs-time-rail .mejs-time-total,
+    .archive #left-area .et_pb_post.format-audio .et_audio_container .mejs-controls .mejs-time-rail .mejs-time-total{
+        min-width: 300px!important;
+        width: 300px!important;
+    }
+}
+
+
+/* Suche als Masonry */
